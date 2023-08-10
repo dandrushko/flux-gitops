@@ -4,7 +4,11 @@ on:
   push:
     paths:
     - 'python/*'
-      
+    
+  workflow_dispatch:
+    paths:
+    - 'python/*'
+  
 jobs:
   build:
 
